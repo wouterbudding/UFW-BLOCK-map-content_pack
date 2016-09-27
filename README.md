@@ -1,5 +1,5 @@
 # UFW-BLOCK-map-content_pack
-UFW BLOCK with GeoIP map and counter for Graylog2.
+This content pack is meant for Graylog2 and will create an counter and a GeoIP map from syslog input that ufw creates.
 
 In the following, we are 192.0.2.1 and the attacker is 192.0.2.99. This content pack will create an INPUT on 0.0.0.0:5140 and a DASHBOARD with the name UFW BLOCK. It reads syslog input with UFW lines that contain the words "UFW BLOCK", like this:
 
