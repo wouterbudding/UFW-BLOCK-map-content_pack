@@ -3,7 +3,7 @@ This content pack is meant for Graylog2 and will create an counter and a GeoIP m
 
 In the following, we are 192.0.2.1 and the attacker is 192.0.2.99. This content pack will create an INPUT on 0.0.0.0:5140 and a DASHBOARD with the name UFW BLOCK. It reads syslog input with UFW lines that contain the words "UFW BLOCK", like this:
 
-[2435.594288] [UFW BLOCK] IN=ppp0 OUT= MAC= SRC=192.0.2.99 DST=192.0.2.1 LEN=153 TOS=0x00 PREC=0x00 TTL=111 ID=26834 PROTO=UDP SPT=1036 DPT=22 LEN=133
+[2435.594288] [UFW BLOCK] IN=ppp0 OUT= MAC= SRC=192.0.2.99 DST=192.0.2.1 LEN=153 TOS=0x00 PREC=0x00 TTL=111 ID=26834 PROTO=UDP SPT=1036 DPT=22 LEN=222
 
 Please follow the instructions mentioned on the site http://docs.graylog.org/en/2.1/pages/geolocation.html first, *before* using this content pack. Then log into your Graylog2 installation and go to System -> Content packs. Then choose Import content pack, select the downloaded json file and after uploading don't forget to choose 'Apply content'. Make sure the INPUT is running and see the DASHBOARD with the name UFW BLOCK.
 
