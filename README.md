@@ -13,3 +13,5 @@ $template GRAYLOGRFC5424,"<%PRI%>%PROTOCOL-VERSION% %TIMESTAMP:::date-rfc3339% %
 *.* @192.0.2.1:5140;GRAYLOGRFC5424
 
 This content pack is not yet ready for recognizing IPv6 addresses. This content pack was created using Graylog 2.1.1+01d50e5 with Oracle Corporation 1.8.0_101 on Linux 4.2.0-42-generic.
+
+END
